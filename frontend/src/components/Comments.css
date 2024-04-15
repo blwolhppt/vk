@@ -6,7 +6,7 @@
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #CCCCCC;
   border-radius: 5px;
   resize: vertical;
 }
@@ -15,13 +15,13 @@
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #CCCCCC;
   border-radius: 5px;
   resize: vertical;
 }
   
 .comment-submit {
-  background-color: #69b1d5;
+  background-color: #69B1D5;
   border: none;
   color: #FFFFFF;
   padding: 10px 20px;
@@ -34,12 +34,12 @@
 }
   
 .comment-submit:hover {
-  background-color: #69b1d5;
+  background-color: #69B1D5;
 }
   
 .reply-button,
 .cancel-reply-button {
-  background-color: #bebfc0;
+  background-color: #BEBFC0;
   border: none;
   color: #000000;
   padding: 10px 20px;
@@ -52,6 +52,6 @@
 }
 
 .cancel-reply-button {
-  background-color: #ff7f7f;
+  background-color: #FF7F7F;
 }
   
