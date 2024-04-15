@@ -6,14 +6,12 @@ import './NewsList.css';
 const NewsList = () => {
   const [news, setNews] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1);
   const [canGoPrevious, setCanGoPrevious] = useState(false);
   const [canGoNext, setCanGoNext] = useState(false);
 
   const fetchData = async () => {
     const result = await axios.get(`http://127.0.0.1:8000/api/news/?page=${currentPage}`);
     setNews(result.data.results);
-    setTotalPages(result.data.total_pages);
     setCanGoPrevious(result.data.previous !== null);
     setCanGoNext(result.data.next !== null);
   };
