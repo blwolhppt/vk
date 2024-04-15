@@ -38,7 +38,7 @@ python manage.py runserver
 ```
 
 ### Работа с frontend:
-```
+
 - Переходим в директорию frontend:
 ```angular2html
 cd frontend
