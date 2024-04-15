@@ -13,9 +13,9 @@
 - Клонируем репозиторий:
 ```angular2html
 git clone git@github.com:blwolhppt/vk.git
+```
 
 ### Работа с backend:
-```
 - Устанавливаем виртуальное окружение:
 ```angular2html
 python -m venv venv
